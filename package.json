@@ -1,0 +1,25 @@
+{
+  "name": "showtapeselection.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realrandombeans/showtapeselection.github.io.git"
+  },
+  "author": "randombeans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realrandombeans/showtapeselection.github.io/issues"
+  },
+  "homepage": "https://github.com/realrandombeans/showtapeselection.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}

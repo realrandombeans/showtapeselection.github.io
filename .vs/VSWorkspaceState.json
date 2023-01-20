@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\media",
-    "\\pages"
+    "\\pages",
+    "\\pages\\lostmedia"
   ],
-  "SelectedNode": "\\pages\\blogimages",
+  "SelectedNode": "\\pages\\lostmedia",
   "PreviewInSolutionExplorer": false
 }

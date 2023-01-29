@@ -3,8 +3,10 @@
     "",
     "\\media",
     "\\pages",
-    "\\pages\\lostmedia"
+    "\\pages\\blogimages",
+    "\\pages\\lostmedia",
+    "\\pages\\stickycontent"
   ],
-  "SelectedNode": "\\pages\\lostmedia",
+  "SelectedNode": "\\pages\\howtocontribute.html",
   "PreviewInSolutionExplorer": false
 }

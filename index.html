@@ -10,19 +10,231 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+    <nav class="position-relative navbar flex-wrap py-4 px-4 px-md-10 navbar-expand-lg navbar-light bg-white shadow-lg" style="height: 100px;">
+        <div class="container-fluid">
+            <a class="d-md-none navbar-brand" href="#">
+                <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" width="48" height="48" class="d-inline-block align-text-top me-2" alt="">
+            </a>
+            <button class="d-lg-none ms-auto btn bg-light p-0 d-flex justify-content-center align-items-center rounded-circle" style="width: 50px; height: 50px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_LC_logocenter" aria-controls="navbar_LC_logocenter" aria-expanded="false" aria-label="Toggle navigation">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+                </svg>
+            </button>
+            <div class="d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                <a class="navbar-brand" href="#">
+                    <img src="media/logoDARK.png" height="48" class="d-inline-block align-text-top me-2" alt="">
+                </a>
+            </div>
+    </nav>
 
-    <!--Navigation bar-->
-    <div id="navbar"></div>
-    <script>
-        $(function () {
-            $("#navbar").load("/pages/stickycontent/nav.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
+    <div class="overflow-hidden">
+        <div class="container-fluid col-xxl-8">
+            <div class="row flex-lg-nowrap align-items-center g-5">
+                <div class="order-lg-1 w-100">
+                    <img style="clip-path: polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%);" src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" class="d-block mx-lg-auto img-fluid" alt="Photo by Milad Fakurian" loading="lazy" srcset="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768 1080w, https://images.unsplash.com/photo-1618004912476-29818d81ae2e??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1618004912476-29818d81ae2e??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1618004912476-29818d81ae2e??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1618004912476-29818d81ae2e??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfDB8fHwxNjQ3NDcxNjY4&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="2160" height="768">
+                </div>
+                <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
+                    <div class="lc-block mb-4">
+                        <div editable="rich">
+                            <h1 class="fw-bold display-3">Building a world of animatronics.</h1>
+                        </div>
+                    </div>
 
-    <div class="p-5 bg-dark text-white ">
-        <h1>Preserving Animatronic History</h1>
-        <p>Join the community now to get engaged and learn new things you never knew before!</p>
+                    <div class="lc-block mb-5">
+                        <div editable="rich">
+                            <p class="rfs-8">The one stop for getting all the data for your lovable animatronic bands and shows alike. Coming soon!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="lc-block">
+                        <div editable="rich">
+                            <p class="fw-bold">Featuring information from:</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-975" src="media/ShowtapeCentral.png" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-977" src="media/cecptt.png" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-974" src="media/showbiz.png" width="" height="300" srcset="" sizes="" alt=""></div>
+                        <div class="lc-block col-3"><img class="img-fluid wp-image-967" src="media/rtr.png" width="" height="300" srcset="" sizes="" alt=""></div>
+                    </div>
+                </div>
+
+            </div><!-- /lc-block -->
+        </div>
     </div>
+
+
+    <div class="container py-6" style="margin-top: 200px; margin-bottom: 200px;">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+
+                        <h2 class="fw-bold display-5">Media you may never have seen before.</h2>
+                    </div>
+                </div>
+                <div class="lc-block mb-5">
+                    <div editable="rich">
+
+
+                        <p class="lead text-muted">All our archived media is fact-checked, we aim to prevent any misinformation and try to find the most reliable sources of information. </p>
+                    </div>
+                </div>
+
+                <div class="lc-block d-sm-flex align-items-center mb-4 overflow-hidden position-relative">
+                    <div class="d-inline-flex">
+                        <div>
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="ms-3 align-self-center" editable="rich">
+                            <p>Easy to access</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lc-block d-sm-flex align-items-center mb-4">
+                    <div class="d-inline-flex">
+                        <div>
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="ms-3 align-self-center" editable="rich">
+                            <p>Safe and factual information</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lc-block d-sm-flex align-items-center mb-4">
+                    <div class="d-inline-flex">
+                        <div>
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon" class="text-success">
+                                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="ms-3 align-self-center" editable="rich">
+                            <p>Reliable sources</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 mt-md-0 col-md-6">
+                <div class="lc-block px-4">
+                    <!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+                    <div class="position-relative">
+                        <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-danger opacity-50 mt-4 ms-4"> </div>
+
+                        <img class="position-relative img-fluid" src="media/3stageold.jpg" srcset="media/3stageold.jpg" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Inside Weather">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-6" style="margin-top: 200px; margin-bottom: 300px;">
+        <div class="row flex-md-row-reverse align-items-center">
+            <div class="col-md-6">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+
+                        <h2 class="fw-bold display-5">The highest quality videos available.</h2>
+                    </div>
+                </div>
+                <div class="lc-block mb-5">
+                    <div editable="rich">
+
+
+                        <p class="lead text-muted">Our digitally enhanced videos are a special process of upscaling, interpolating and sharpening the video to aim to get the best quality you can get, without looking too sharpened or low-quality.</p>
+                    </div>
+                </div>
+
+                <div class="lc-block d-sm-flex align-items-center mb-4 overflow-hidden position-relative">
+                    <div class="d-inline-flex">
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 mt-md-0 col-md-6">
+                <div class="lc-block px-4">
+                    <!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+                    <div class="position-relative" data-path="0.0.0.1.0">
+                        <div class="lc-block position-absolute top-0 end-0 w-100 h-100 bg-danger opacity-50 mt-4 me-4"> </div>
+
+                        <img class="position-relative img-fluid" src="media/thumb.png" srcset="media/compare.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Inside Weather">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-8">
+        <div class="card">
+            <div class="card-body p-md-4 py-xxl-6 position-relative">
+
+                <img class="position-absolute d-none d-lg-block img-fluid position-absolute bottom-0 ms-xl-7" src="media/pttshowtime.png" srcset="" sizes="" width="350" alt="Photo by Unsplash">
+
+                <div class="row gx-md-0 gx-xl-7">
+                    <div class="col-lg-7 offset-lg-5 col-xl-6 text-center py-5 py-lg-4">
+                        <div class="lc-block d-flex gap-1 justify-content-center mb-4">
+                        </div>
+                        <div class="lc-block mb-5 col-xl-10 mx-auto">
+                            <div editable="rich">
+                                <p class="text-muted rfs-9">
+                                    “Showtape Selection is one of the top websites in the Chuck E. Cheese fandom! It has so much to see! 
+                                    The archive is one of the best around. It features plenty of old CEC media for you to learn about and enjoy! 
+                                    Overall, I think Showtape Selection is a great website and I'm happy to be a part of the moderation team!"
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block">
+                            <div editable="rich">
+
+                                <h2 class="h5">Studio Cheese</h2>
+
+                                <p class="text-muted lead">Moderator</p>
+
+                            </div>
+                        </div>
+                    </div><!-- /col -->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <section>
+        <div class="container py-6 text-center">
+            <div class="col-md-12 navbar-expand border-bottom pb-2 mb-4">
+                <div lc-helper="shortcode" class="live-shortcode ">
+                    <!--  lc_nav_menu --> <ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 d-block d-md-flex justify-content-center">
+                        <li class="link-dark" style="margin-left:5px; margin-right: 5px;"><a href="https://discord.gg/mvuFhFz8BN" class="nav-link ">Discord</a></li>
+                        <li class="link-dark" style="margin-left:5px; margin-right: 5px;"><a href="https://www.youtube.com/@showtapeselection" class="nav-link ">Youtube</a></li>
+                    </ul> <!-- /lc_nav_menu -->
+                </div>
+            </div>
+
+            <div class="lc-block">
+                <div editable="rich">
+                    <p class="text-muted">© 2022 Showtape Selection, Inc</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
 </body>
 </html>

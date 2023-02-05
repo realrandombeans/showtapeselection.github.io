@@ -9,27 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <style>
-        body {
-        }
 
-        .testimonial-card .card-up {
-            height: 120px;
-            overflow: hidden;
-            border-top-left-radius: .25rem;
-            border-top-right-radius: .25rem;
-        }
-
-        .aqua-gradient {
-            background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
-        }
-
-        .testimonial-card .avatar {
-            width: 120px;
-            margin-top: -60px;
-            overflow: hidden;
-            border: 5px solid #fff;
-            border-radius: 50%;
-        }
     </style>
 </head>
 <body>
@@ -58,29 +38,27 @@
     </div>
 
 
-    <section>
-        <div class="container py-6">
-            <div class="row pt-6">
-                <div class="col-md-5 mb-6 mb-md-5">
-                    <div class="lc-block p-4 card shadow position-relative">
-                        <div class="card-body">
-                            <img class="img-p position-relative mx-auto d-block" src="../media/showbiz.png" alt="" style="margin-top: 20px; margin-bottom: 20px; height:150px;">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
-                            <div class="lc-block pt-3 ">
-                                <div editable="rich">
-
-                                    <h2 class="fw-bold h3">Custom Feature</h2>
-                                    <p class="rfs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet. Aenean vel nisi in ipsum congue fermentum et ut arcu.</p>
-                                    <div class="d-grid gap-2">
-                                        <button class="btn btn-lg btn-outline-dark" type="button">Open Archive</button>
-                                    </div>
-                                </div>
+            <div class="col">
+                <div class="lc-block card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" lc-helper="background" style="background-image: url('https://images.unsplash.com/photo-1507499739999-097706ad8914?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MTB8fHNwYWNlfGVufDB8MXx8fDE2MjE4NDQ2MTY&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768'); background-size:cover">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <div class="lc-block pt-5 mt-5 mb-4">
+                            <div editable="rich">
+                                <h2 class="display-6 lh-1 fw-bold">Chuck E Cheese</h2>
                             </div>
                         </div>
-                    </div><!-- /lc-block -->
+                        <div class="d-grid col-12 mx-auto">
+                            <button class="btn btn-outline-light" type="button">Enter</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
-     </section>
+
+
+        </div>
+    </div>
+
 </body>
 </html>
